@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #CAD49D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid black; */
+}
+#box-container{
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 4px solid black;
+}
+#heading{
+    text-align: center;
+}
+#Calculate{
+    padding: 5px;
+    border-radius: 5px;
+}
+#weight-guide{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
